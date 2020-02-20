@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Yekan.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Yekan.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Yekan.otf') format('opentype'), /* Open Type Font */
+    url('../fonts/Yekan.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Yekan.svg#Yekan') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Yekan';
+    background-image: url(../image/bg.jpg);
+    color: white;
+}
+
+.menu{
+    width: 310px;
+    height: 300px;
+    direction: rtl;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-weight: 2000;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Yekan';
+    direction: rtl;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+}
+
+.titleMenu{
+    font-size: 55px;
+}
+.userFont  {
+    float: left;
+}
+.userText{
+    float: right;
+}
+input{
+    float: right;
+    width: 310px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-top: -20px;
+}
+
+::placeholder{
+    font-family: 'Yekan';
+    color: white;
+    opacity: 1;
+    font-weight: bolder;
+    padding-top: 70px;
+    text-align: bottom;
+}
+.pass{
+    float: left;
+    margin-bottom: -10px;
+}
+.fa.fa-user:before {
+    content: "\f007";    
+}
+
+.fa-user-lock:before {
+    content: "\f502"; 
+}
+span{
+    float: left;
+    margin-bottom: -70px;
+}
+button{
+    font-family: 'Yekan';
+    font-weight: 900;
+    text-align: center;
+    width: 310px;
+    height: 60px;
+    background-color: rgb(54, 138, 235);
+    margin-top: 50px;
+    border: none;
+    display: inline-block;
+    border-radius: 7px; 
+    font-size: 20px; 
+    color: white;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: rgb(111, 196, 224);
+}
+div .float{
+    font-family: 'Yekan';
+    font-weight: normal;
+    height:  20px;
+    font-size: 10px;
+    display: inline-block; 
+    float: right;
+}
+
+.clear{
+    width: 310px;
+    height: 10px;
+    clear: both;
+    
+}
+.check{
+    width: 15px;
+    height: 15px;
+    font-family: 'Yekan'; 
+    font-size: 10px;
+    float: right;
+    margin-top: 7px;
+}
+
+p , a{
+    font-family: 'Yekan'; 
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+p{
+    padding: 0px 0px 0px 65px;
+    margin-top: 0px ;
+}
+
+
+
+

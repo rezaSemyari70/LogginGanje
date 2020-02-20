@@ -12,12 +12,43 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Shabnam;
+    src: url('Shabnam.eot');
+    src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
+         url('Shabnam.woff2') format('woff2'),
+         url('Shabnam.woff') format('woff'),
+         url('Shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: Shabnam;
+    src: url('Shabnam-Bold.eot');
+    src: url('Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Shabnam-Bold.woff2') format('woff2'),
+         url('Shabnam-Bold.woff') format('woff'),
+         url('Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: Shabnam;
+    src: url('Shabnam-Medium.eot');
+    src: url('Shabnam-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Shabnam-Medium.woff2') format('woff2'),
+         url('Shabnam-Medium.woff') format('woff'),
+         url('Shabnam-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+
 body{
     width: 100%;
     height: 100%;
     font-family: 'Yekan';
     background-image: url(../image/bg.jpg);
     color: white;
+    font-family: Shabnam;
+    font-weight: 500;
 }
 
 .menu{
@@ -39,7 +70,7 @@ h1 {
 }
 
 h2{
-    font-family: 'Yekan';
+    font-family: Shabnam;
     direction: rtl;
     text-align: center;
     font-weight: bolder;
@@ -69,7 +100,7 @@ input{
 }
 
 ::placeholder{
-    font-family: 'Yekan';
+    font-family: Shabnam;
     color: white;
     opacity: 1;
     font-weight: bolder;
@@ -92,7 +123,7 @@ span{
     margin-bottom: -70px;
 }
 button{
-    font-family: 'Yekan';
+    font-family: Shabnam;
     font-weight: 900;
     text-align: center;
     width: 310px;
@@ -111,7 +142,7 @@ button:hover{
     background-color: rgb(111, 196, 224);
 }
 div .float{
-    font-family: 'Yekan';
+    font-family: Shabnam;
     font-weight: normal;
     height:  20px;
     font-size: 10px;
@@ -135,7 +166,7 @@ div .float{
 }
 
 p , a{
-    font-family: 'Yekan'; 
+    font-family: Shabnam;
     font-weight: bold;
     font-size: 11px;
     color: white;

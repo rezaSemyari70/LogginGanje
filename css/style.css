@@ -5,10 +5,12 @@
          url('Shabnam.woff2') format('woff2'),
          url('Shabnam.woff') format('woff'),
          url('Shabnam.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: bold;
   }
 
+
 body{
+    font-family: Shabnam;
     width: 100%;
     height: 100%;
     font-family: Shabnam;
@@ -16,14 +18,27 @@ body{
     color: white;
     font-family: Shabnam;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    font-family: Shabnam;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
-    width: 310px;
-    height: 300px;
+    font-family: Shabnam;
+    width: 22vw;
     direction: rtl;
-    margin: auto;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
 }
 
 
@@ -33,51 +48,56 @@ h1 {
     font-weight: 2000;
     color: white;
     font-size: 2em;
-    font-weight: bold;
+    margin-bottom: 15px;
+    
 }
 
 h2{
     font-family: Shabnam;
-    direction: rtl;
-    text-align: center;
     font-weight: bolder;
     color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-bottom-width: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-direction: row ;
 }
 
 .titleMenu{
     font-size: 55px;
 }
-.userFont  {
-    float: left;
-}
-.userText{
-    float: right;
-}
-input{
-    float: right;
-    width: 310px;
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid white;
-    padding-top: -20px;
+
+.user , .pass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end ;
+    padding: 0px 0px 8px 7px;
+    border-bottom: 1.5px solid white;
 }
 
-::placeholder{
+input{
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    padding-top: 2vh;
+}
+
+.menu .fasfa-lock{
+    padding-left: 6px;
+}
+
+input::placeholder{
     font-family: Shabnam;
     color: white;
-    opacity: 1;
+    opacity: 0.7;
     font-weight: bolder;
-    padding-top: 70px;
-    text-align: bottom;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 1vw 0px 0px; 
 }
-.pass{
-    float: left;
-    margin-bottom: -10px;
-}
+
 .fa.fa-user:before {
     content: "\f007";    
 }
@@ -85,67 +105,54 @@ input{
 .fa-user-lock:before {
     content: "\f502"; 
 }
-span{
-    float: left;
-    margin-bottom: -70px;
-}
+
 button{
-    font-family: Shabnam;
     font-weight: 900;
-    text-align: center;
-    width: 310px;
-    height: 60px;
+    width: 22vw;
+    height: 9vh;
     background-color: rgb(54, 138, 235);
     margin-top: 50px;
     border: none;
-    display: inline-block;
-    border-radius: 7px; 
+    border-radius: 6px; 
     font-size: 20px; 
     color: white;
-    margin-bottom: 5px;
 }
 
 button:hover{
     background-color: rgb(111, 196, 224);
 }
-div .float{
-    font-family: Shabnam;
-    font-weight: normal;
-    height:  20px;
-    font-size: 10px;
-    display: inline-block; 
-    float: right;
-}
 
-.clear{
-    width: 310px;
-    height: 10px;
-    clear: both;
+.check input{
     
-}
-.check{
     width: 15px;
     height: 15px;
-    font-family: 'Yekan'; 
-    font-size: 10px;
-    float: right;
-    margin-top: 7px;
+    padding: 0px;
 }
 
 p , a{
     font-family: Shabnam;
-    font-weight: bold;
-    font-size: 11px;
-    color: white;
+    font-size: 12px;
+    font-weight: bolder;
     text-decoration: none;
-    float: right;
+    color: white;
+    opacity: 0.7;
 }
 
-p{
-    padding: 0px 0px 0px 65px;
-    margin-top: 0px ;
+ .check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
+.check a{
+    padding-right: 40px;
+}
 
-
+img{
+    width: 35px;
+    height: 35px ;
+    padding-top: 40px;
+}
 

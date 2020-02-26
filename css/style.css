@@ -76,11 +76,12 @@ h2{
 }
 
 input{
-    width: 92%;
+    width: 90%;
     height: 20px;
     background-color: transparent;
     border: none;
     padding-top: 2vh;
+    padding-right: 7px;
 }
 
 .menu .fasfa-lock{
